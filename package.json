@@ -20,7 +20,6 @@
     "@astrojs/sitemap": "^3.4.2",
     "@astrojs/solid-js": "^5.1.0",
     "@astrojs/tailwind": "^6.0.2",
-    "@rollup/rollup-win32-x64-msvc": "^4.46.2",
     "@tailwindcss/typography": "^0.5.10",
     "astro": "^5.12.8",
     "clsx": "^2.1.0",
@@ -30,5 +29,8 @@
     "tailwind-merge": "^2.2.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "rollup": "^4.46.2"
   }
 }
