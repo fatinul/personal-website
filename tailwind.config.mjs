@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "sans": ["Atkinson", ...defaultTheme.fontFamily.sans],
+        "sans": ["Cascadia Code", ...defaultTheme.fontFamily.sans],
       },
       typography: {
         DEFAULT: {
