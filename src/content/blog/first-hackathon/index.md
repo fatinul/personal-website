@@ -1,5 +1,5 @@
 ---
-title: "My First Hackathon"
+title: "🕸️ My First Hackathon"
 summary: "My experience joining HackPPMK'25 and leading my team"
 date: "Aug 24 2025"
 draft: false

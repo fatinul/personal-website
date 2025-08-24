@@ -1,5 +1,5 @@
 ---
-title: "MyPPMK"
+title: "🕸️ MyPPMK"
 summary: "Showcases the connections between Malaysian Student Communities in a fun and interactive way"
 date: "Aug 24 2025"
 draft: false
