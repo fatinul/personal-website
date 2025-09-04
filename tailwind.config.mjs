@@ -9,13 +9,29 @@ export default {
       fontFamily: {
         "sans": ["Cascadia Code", ...defaultTheme.fontFamily.sans],
       },
-      typography: {
+      typography: (theme) => ({
         DEFAULT: {
           css: {
             maxWidth: "full",
+            'p': {
+              color: theme('colors.gray.500'),
+            },
+            'h1, h2, h3, h4, h5, h6': {
+              color: theme('colors.black'),
+            },
           },
         },
-      },
+        invert: {
+          css: {
+            'p': {
+              color: theme('colors.gray.600'),
+            },
+            'h1, h2, h3, h4, h5, h6': {
+              color: theme('colors.white'),
+            },
+          }
+        }
+      }),
       rotate: {
         "45": "45deg",
         "135": "135deg",
