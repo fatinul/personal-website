@@ -16,15 +16,30 @@ export default {
             'p': {
               color: theme('colors.gray.500'),
             },
+            'strong': {
+              color: theme('colors.emerald.400'),
+            },
+            'code': {
+              color: theme('colors.indigo.400'),
+            },
             'h1, h2, h3, h4, h5, h6': {
               color: theme('colors.black'),
+            },
+            'listitem': {
+              color: theme('colors.gray.500'),
             },
           },
         },
         invert: {
           css: {
             'p': {
-              color: theme('colors.gray.600'),
+              color: theme('colors.gray.400'),
+            },
+            'strong': {
+              color: theme('colors.emerald.400'),
+            },
+            'code': {
+              color: theme('colors.indigo.400'),
             },
             'h1, h2, h3, h4, h5, h6': {
               color: theme('colors.white'),

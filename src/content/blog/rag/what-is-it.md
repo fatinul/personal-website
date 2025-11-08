@@ -29,6 +29,8 @@ RAG or in other word **(Retrieval-Augmented Generation)** is a pipeline that ext
 
 # ⚙️ How RAG works in the code?
 
+![RAG Flow Chart](<RAG Flow Chart.png>)
+
 To put it simply, the whole process can be summarized within **3 simple steps (Indexing, Quering, and Generation)**
 
 ## 🗃️🔢 STEP 1: Indexing
@@ -79,6 +81,14 @@ With the persistent storage exist, half of our works are done. Now let's move on
 Okay, this is simply a query to get user's **prompt**. So when user prompt a question, the question itself will be converted into a *numerical representation* similar as before. Make sure that it uses the same embedding model to make it works^^
 
 ```python
+# Load the index from the saved directory
+    storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
+    index = load_index_from_storage(
+        storage_context,
+        embed_model=ollama_embed_model # Must pass embed_model to ensure consistency
+    )
+    print("Index loaded successfully.")
+
 # --- RAG Step 2: Query Engine Construction ---
 
 # 1. Create the Query Engine (This is fast)
