@@ -50,9 +50,7 @@ repoUrl: https://github.com/fatinul/mvw/
     <td valign="center">
       <h3>Fastfetch inspired movie reviews</h3>
       <p><em>Catalogue your own movie review inside your terminal.</em></p>
-      <img src="https://img.shields.io/badge/python-3.12+-blue.svg" alt="Python">
-      <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
-      <code>pipx install mvw</code>
+       <code>pipx install mvw</code>
     </td>
   </tr>
 </table>
