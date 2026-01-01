@@ -1,5 +1,5 @@
 ---
-title: "🕸️ MVW"
+title: "🎬 MVW"
 summary: "MoVie revieW inspired by fastfetch"
 date: "Jan 01 2026"
 draft: false
@@ -11,7 +11,8 @@ tags:
 repoUrl: https://github.com/fatinul/mvw/
 ---
 
-![MyPPMK preview loading..](./MyPPMK-preview.gif)
+> NOTES: You can also see my project on [PyPI - mvw](https://pypi.org/project/mvw)
+
 <img src="https://raw.githubusercontent.com/fatinul/mvw/v0.1.0/images/welcome.png" align="center">
 
 <details>
@@ -51,9 +52,7 @@ repoUrl: https://github.com/fatinul/mvw/
       <p><em>Catalogue your own movie review inside your terminal.</em></p>
       <img src="https://img.shields.io/badge/python-3.12+-blue.svg" alt="Python">
       <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
-      <br><br>
       <code>pipx install mvw</code>
-      <br><br>
     </td>
   </tr>
 </table>
