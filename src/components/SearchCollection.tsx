@@ -141,7 +141,8 @@ export default function SearchCollection({ entry_name, data, tags }: Props) {
             </div>
             <button onClick={toggleDescending} class='flex flex-row gap-1 stroke-neutral-400 dark:stroke-neutral-500 hover:stroke-neutral-600 hover:dark:stroke-neutral-300 text-neutral-400 dark:text-neutral-500 hover:text-neutral-600 hover:dark:text-neutral-300'>
               <div class="text-sm uppercase">
-                {descending() ? "DESCENDING" : "ASCENDING"}
+                {/* {descending() ? "DESCENDING" : "ASCENDING"} */}
+                {descending() ? "ASCENDING" : "DESCENDING"}
               </div>
               <svg
                 class="size-5 left-2 top-[0.45rem]"
